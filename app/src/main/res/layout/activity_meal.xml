@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    android:orientation="vertical"
+    tools:context=".SdhActivity">
+
+    <TextView
+        android:id="@+id/breakfast_id"
+        android:text="@string/breakfast_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight=".33"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/lunch_id"
+        android:text="@string/lunch_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight=".33"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/dinner_id"
+        android:text="@string/dinner_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight=".33"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:clickable="true"/>
+</LinearLayout>
